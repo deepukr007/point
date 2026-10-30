@@ -1,0 +1,14 @@
+How to load annotations:
+https://labelstud.io/blog/tutorial-importing-local-yolo-pre-annotated-images-to-label-studio/
+
+http://localhost:8080/data/local-files/?d=boxes/images/wp1_apple_p1_yellow_A7_id415.png
+
+
+
+# To convert the
+uv run label-studio-converter import yolo -i /home/dk/Projects/point/output/boxes -o output.json --image-root-url "/data/local-files/?d=boxes/images" --image-ext .png
+
+
+export LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/home/dk/Projects/point/output
+export DATA_UPLOAD_MAX_NUMBER_FILES=1000000
+export LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true

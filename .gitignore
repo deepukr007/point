@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Training logs
+events.out.tfevents.*
+
+# External dataset
+Pointing_Dataset-main/
+
+# Large generated data / images
+dataset*/
+dataset_coco_exported*/
+sam_output*/
+test*.jpg

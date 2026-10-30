@@ -1,0 +1,2 @@
+Best epoch,mAP@50,mAP@50:95,mAP@75,mAR,Precision,Recall,F1
+10,97.58,85.16,89.58,91.69,98.44,96.92,97.67
